@@ -1,10 +1,10 @@
 ## Welcome to Sellpy Frontend Designer Sandbox!
 
-Your task is to design and implement a prototype for the Item detail page on sellpy.se.
+Your task is to design and implement a prototype for the Item detail page on sellpy.se.<br>
 Examples are:
-[Skjorta](https://www.sellpy.se/item/2dMWC5rMUS/polo-ralph-lauren-skjorta-custom-fit-strl-s-beige-flerfargad)
-[Skor](https://www.sellpy.se/item/3ZrZX0O7Gh/acne-studios-boots-strl-36-svart-skinn)
-[Pryl](https://www.sellpy.se/item/9yBpgFIqMl/apple-iphone-6-a1586-64gb-olast-silverfargad)
+- [Skjorta](https://www.sellpy.se/item/2dMWC5rMUS/polo-ralph-lauren-skjorta-custom-fit-strl-s-beige-flerfargad)
+- [Skor](https://www.sellpy.se/item/3ZrZX0O7Gh/acne-studios-boots-strl-36-svart-skinn)
+- [Pryl](https://www.sellpy.se/item/9yBpgFIqMl/apple-iphone-6-a1586-64gb-olast-silverfargad)
 
 We would like you to create a new graphically pleasing intuitive page.
 
@@ -15,6 +15,11 @@ We would like you to create a new graphically pleasing intuitive page.
 - Think about what you would like to add to make ther page more appealing. Ex: At the moment we have a component displaying similar items.
 - If you feel that you are missing data from the items provided feel free to add and make stuff up.
 - Information about 3 items are present in the items.js file in the "resources" folder.
+- Start by creating your own branch and commit your changes to that branch.
+
+### Submission
+
+- Create a pull request for your branch when you feel that you are satisfied with your creation.
 
 ------------------------------------------------------------------------------------------------------------
 
