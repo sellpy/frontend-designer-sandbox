@@ -1,4 +1,4 @@
-Welcome to Sellpy Frontend Designer Sandbox!
+## Welcome to Sellpy Frontend Designer Sandbox!
 
 Your task is to design and implement a prototype for the Item detail page on sellpy.se.
 Examples are:
@@ -8,7 +8,7 @@ Examples are:
 
 We would like you to create a new graphically pleasing intuitive page.
 
-The following guidlines apply:
+### The following guidlines apply:
 
 - Buttons and clickable/tappable objects do not have to function unless their function is only graphical (ex: hiding/showing information) in that case where it is relevant to the design it is preferable if it works.
 - You do not have to implement any image switching or zoom.
