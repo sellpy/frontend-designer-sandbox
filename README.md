@@ -1,3 +1,23 @@
+Welcome to Sellpy Frontend Designer Sandbox!
+
+Your task is to design and implement a prototype for the Item detail page on sellpy.se.
+Examples are:
+[Skjorta](https://www.sellpy.se/item/2dMWC5rMUS/polo-ralph-lauren-skjorta-custom-fit-strl-s-beige-flerfargad)
+[Skor](https://www.sellpy.se/item/3ZrZX0O7Gh/acne-studios-boots-strl-36-svart-skinn)
+[Pryl](https://www.sellpy.se/item/9yBpgFIqMl/apple-iphone-6-a1586-64gb-olast-silverfargad)
+
+We would like you to create a new graphically pleasing intuitive page.
+
+The following guidlines apply:
+
+- Buttons and clickable/tappable objects do not have to function unless their function is only graphical (ex: hiding/showing information) in that case where it is relevant to the design it is preferable if it works.
+- You do not have to implement any image switching or zoom.
+- Think about what you would like to add to make ther page more appealing. Ex: At the moment we have a component displaying similar items.
+- If you feel that you are missing data from the items provided feel free to add and make stuff up.
+- Information about 3 items are present in the items.js file in the "resources" folder.
+
+------------------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
