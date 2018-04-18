@@ -2,9 +2,9 @@
 
 Your task is to design and implement a prototype for the Item detail page on sellpy.se.<br>
 Examples are:
-- [Skjorta](https://www.sellpy.se/item/2dMWC5rMUS/polo-ralph-lauren-skjorta-custom-fit-strl-s-beige-flerfargad)
-- [Skor](https://www.sellpy.se/item/3ZrZX0O7Gh/acne-studios-boots-strl-36-svart-skinn)
-- [Pryl](https://www.sellpy.se/item/9yBpgFIqMl/apple-iphone-6-a1586-64gb-olast-silverfargad)
+- [Shirt](https://www.sellpy.se/item/2dMWC5rMUS/polo-ralph-lauren-skjorta-custom-fit-strl-s-beige-flerfargad)
+- [Shoes](https://www.sellpy.se/item/3ZrZX0O7Gh/acne-studios-boots-strl-36-svart-skinn)
+- [Item](https://www.sellpy.se/item/9yBpgFIqMl/apple-iphone-6-a1586-64gb-olast-silverfargad)
 
 We would like you to create a new graphically pleasing intuitive page.
 
