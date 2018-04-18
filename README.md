@@ -13,6 +13,7 @@ We would like you to create a new graphically pleasing intuitive page.
 - Buttons and clickable/tappable objects do not have to function unless their function is only graphical (ex: hiding/showing information) in that case where it is relevant to the design it is preferable if it works.
 - You do not have to implement any image switching or zoom.
 - Think about what you would like to add to make ther page more appealing. Ex: At the moment we have a component displaying similar items.
+- The main color of Sellpy is (#008BE5)
 - If you feel that you are missing data from the items provided feel free to add and make stuff up.
 - Information about 3 items are present in the items.js file in the "resources" folder.
 - Start by creating your own branch and commit your changes to that branch.
