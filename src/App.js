@@ -1,62 +1,67 @@
-import React, {Component} from 'react'
-import {shirt} from './resources/items'
-
-const columnStyle = {
-  flexBasis: '40%',
-  minWidth: '300px'
-}
-
-const ImageContainer = ({images}) => {
-  const imageStyle = {
-    width: '100%'
-  }
-  return <div
-      style={columnStyle}
-    >
-      <img 
-      src={images[0]}
-      alt='Product'
-      style={imageStyle}
-    />
-  </div>
-}
-
-const ItemInfo = ({item}) => {
-  const style = {
-    ...columnStyle,
-    display: 'flex',
-    flexDirection: 'column'
-  }
-  return <div
-    style={style}
-  >
-    <p>{item.metadata.brand}</p>
-    <p>{item.metadata.type}</p>
-    <p>{item.currentValue}</p>
-  </div>
-}
-
-const ItemDetailPage = ({item}) => {
-  const style = {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around'
-  }
-  return <div style={style}>
-    <ImageContainer
-      images={item.images}
-    />
-    <ItemInfo
-      item={item}
-    />
-  </div>
-}
+import React, {Component} from 'react';
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
+import ItemDetailPage from './components/Item/ItemDetailPage';
+import AppIntro from './components/AppIntro';
+import {shirt, shoes, iphone} from './resources/items';
 
 class App extends Component {
+  constructor(){
+    super();
+    this.state = {
+      cartItems: [],
+      currentProduct: shoes,
+      showIntro: true
+    }
+  }
+  componentDidMount(){
+    window.addEventListener("keypress", (e) => {
+      const keyCode = e.code;
+      this.switchProduct(keyCode);
+    });
+  }
+  componentWillUnMount(){
+    window.removeEventListener("keypress");
+  }
+  enterApp = () => {
+    this.setState({showIntro: false});
+  }
+  switchProduct = (keyCode) => {
+    if(keyCode === 'Digit1') this.setState({currentProduct: shirt});
+    else if(keyCode === 'Digit2') this.setState({currentProduct: shoes});
+    else if(keyCode === 'Digit3') this.setState({currentProduct: iphone});
+  }
+  handleCart = (added) => {
+    if(added){
+      this.setState({
+        cartItems: [
+          ...this.state.cartItems.filter((item) => item!==this.state.currentProduct),
+          this.state.currentProduct
+        ]
+      });
+
+    } else {
+      this.setState ({
+        cartItems: this.state.cartItems.filter((item) => item!==this.state.currentProduct)
+      });
+    }
+  }
   render() {
-    return <ItemDetailPage
-      item={shirt}
-    />
+    if(this.state.showIntro) {
+      return <AppIntro onEnterApp={this.enterApp}/>
+    } else {
+      return (
+        <div className="app-wrapper">
+          <Header cartItems={this.state.cartItems}/>
+          <ItemDetailPage
+            item={this.state.currentProduct}
+            onAddToCart={this.handleCart}
+            cartItems={this.state.cartItems}
+          />
+          <Footer />
+        </div>
+      );
+    }
   }
 }
 

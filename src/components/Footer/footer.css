@@ -1,0 +1,47 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: var(--footer-bg-color);
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+.footer .container {
+  max-width: 1400px;
+}
+.footer-social a{
+  font-size: 26px;
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 4%;
+}
+.footer-profile img{
+  max-width: 200px;
+  min-width: 140px;
+}
+.footer-sellpy {
+  padding-left: 40px;
+  padding-top: 40px;
+}
+.footer-contact {
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+.footer ul, li, p {
+  margin-left: 0;
+  margin-top: 0;
+}
+.footer li {
+  line-height: 1.75;
+}
+@media (max-width: 730px) {
+  .footer-column { width: 50%; height: 110px;}
+  .footer a { font-size: 0.9em; }
+  .footer-social { margin-bottom: 30px; white-space: nowrap; }
+  .footer-social a{ font-size: 30px; margin-right: 20px; }
+  .footer-profile, .footer-contact { margin-left: 40px; }
+  .footer-profile { margin-top: 40px; }
+  .footer-contact { margin-top: 20px; font-size: 0.8em; }
+}

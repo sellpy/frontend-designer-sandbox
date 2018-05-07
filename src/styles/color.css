@@ -1,0 +1,15 @@
+:root {
+  --sellpy-blue: #008BE5;
+  --sellpy-green: #3FCD75;
+  --sellpy-yellow: #FFDC3C;
+  --sellpy-blue-light: #5CB4EF;
+  --sellpy-green-light: #5BDDBB;
+  --sellpy-yellow-light: #FFF7A0;
+  --sellpy-blue-grey: #92B5BE;
+  --footer-bg-color: #F7F7F7;
+  --section-bg-grey: #F9FAFC;
+  --red: #EF4444;
+  --orange: #FFAE5A;
+  --dark-text-color: rgba(0, 0, 0, 0.77);
+  --light-text-color: rgba(0, 0, 0, 0.24);
+}

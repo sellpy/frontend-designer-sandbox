@@ -1,0 +1,231 @@
+@import "./color.css";
+
+/* Loaders
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.screen-loader-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+.loader {
+  position: absolute;
+  padding: 5px;
+  overflow: visible;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 55px;
+  height: 55px;
+  background: var(--sellpy-blue);
+  border-radius: 50%;
+}
+.loader::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  border: 0px solid white;
+  background: linear-gradient(to right, #00C99F, #03C7E5);
+  background: -webkit-linear-gradient(to right, #00C99F, #03C7E5);
+  background: -moz-linear-gradient(to right, #00C99F, #03C7E5);
+  transform: translate(-50%, -50%);
+  animation: loading 1.5s ease-out forwards infinite;
+}
+
+@keyframes loading {
+  0% {
+    border: 0px solid white;
+  }
+
+  20% {
+    border: 8px solid white;
+    width: 0%;
+    height: 0%;
+  }
+  100% {
+    border: 8px solid white;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Horizontal list
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.horizon-list {
+  position: relative;
+  width: 100%;
+  padding: 0 10px;
+}
+.horizontal-list-arrow-left,
+.horizontal-list-arrow-right{
+  position: absolute;
+  top: 40%;
+  z-index: 12;
+  font-size: 40px;
+  padding: 10px 0;
+}
+
+.horizontal-list-arrow-left {
+  left: -30px;
+  padding-right: 20px;
+}
+.horizontal-list-arrow-right {
+  right: -30px;
+  padding-left: 20px;
+}
+.horizontal-list-viewbox {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  overflow: hidden;
+}
+.horizontal-list-items {
+  position: relative;
+  white-space: nowrap;
+  transition: left 0.6s ease-in-out;
+}
+
+@media (max-width: 550px){
+  .horizontal-list {
+    width: 100%;
+    padding: 0;
+  }
+  .horizontal-list-viewbox {
+    overflow: auto;
+  }
+  .horizontal-list-arrow-left,
+  .horizontal-list-arrow-right { display: none }
+}
+
+/* Buttons
+ * JS UI Component is under /components/Common
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.sellpy-btn {
+  padding: 10px 30px 10px 30px;
+  border: 2px solid var(--sellpy-blue);
+  background-color: var(--sellpy-blue);
+  color: white;
+  font-weight: 400;
+}
+
+.sellpy-btn-outline {
+  background-color: none;
+  color: black;
+}
+.sellpy-btn-blue {
+  border: 2px solid var(--sellpy-blue);
+  background-color: var(--sellpy-blue);
+}
+.sellpy-btn-green {
+  border: 2px solid var(--sellpy-green);
+  background-color: var(--sellpy-green);
+}
+.sellpy-btn-yellow {
+  border: 2px solid var(--sellpy-yellow);
+  background-color: var(--sellpy-yellow);
+}
+
+.like-btn {
+  position: relative;
+  overflow: visible;
+}
+
+/* Product card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.product-card-text {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.product-card-text p {
+  margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.product-card-title {
+  font-size: 1em;
+  font-weight: 500;
+}
+.product-card-description {
+  font-size: 0.9em;
+  padding-bottom: 6px;
+}
+.product-card-price-original {
+  text-decoration: line-through;
+  margin-right: 8px;
+  font-size: 0.9em;
+  color: var(--red);
+}
+.product-card-discount-badge {
+  display: none;
+  position: absolute;
+  padding: 5px 10px;
+  top:15px;
+  left: -10px;
+  box-shadow: 1px 3px 6px rgba(0,0,0,0.05);
+  background: var(--orange);
+}
+.product-card-discount-badge p{
+  line-height: 1;
+  margin:0;
+}
+.product-card-like {
+  display: none;
+  position: absolute;
+  height: 42px;
+  width: 42px;
+  padding-top: 9px;
+  top: 8px;
+  right: 4%;
+  border-radius: 50%;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.12);
+  background: white;
+}
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.check-it-out-link {
+  cursor: default;
+  text-align: left;
+}
+.check-it-out-decoration {
+  position: relative;
+  margin-right: 20px;
+  transition: all 0.3s ease-out;
+}
+
+.check-it-out-link a {
+  color: var(--sellpy-green);
+  transition: all .3s;
+}
+.check-it-out-link a:hover {
+  cursor: pointer;
+  color: var(--sellpy-blue);
+  transform: scale(1.05);
+}
+
+@media (max-width: 550px) {
+  .check-it-out-link {
+    font-size: 0.9em;
+  }
+}
+
+/* Other
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.app-intro {
+  padding: 12% 10%;
+  width: 100%;
+  height: 100%;
+  line-height: 2;
+  background: #fafafa;
+  color: grey;
+}
+.app-intro h3 {
+  font-size: 1.5em;
+  color: var(--sellpy-blue);
+}
+.app-intro button {
+  margin-top: 30px;
+}
