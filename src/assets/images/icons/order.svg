@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="42px" viewBox="0 0 43 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>book-btn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="product-v5" transform="translate(-1303.000000, -20.000000)">
+            <g id="book-btn" transform="translate(1303.000000, 20.000000)">
+                <path d="M34,0 L43,0 L43,42 L0,42 L0,34 C-2.29960275e-15,15.2223185 15.2223185,3.44940413e-15 34,0 Z" id="Rectangle-2" fill="#038BE5"></path>
+                <polygon id="Path-2" fill="#FFFFFF" points="21.2066779 12 21.2066779 19.8560672 13 19.8560672 13 25.1000741 21.2066779 25.1000741 21.2066779 34 26.1452098 34 26.1452098 25.1000741 34 25.1000741 34 19.8560672 26.1452098 19.8560672 26.1452098 12"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

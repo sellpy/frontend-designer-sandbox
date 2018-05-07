@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="17px" viewBox="0 0 22 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>cart copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="navbarMobile" transform="translate(-337.000000, -14.000000)" stroke="#000000">
+            <g id="cart" transform="translate(336.000000, 9.000000)">
+                <g id="Group-6" transform="translate(1.974314, 5.968422)">
+                    <polyline id="Path-2" points="-1.65575047e-12 2.65263146 -1.65563678e-12 0 2.0480815 0 2.73077534 1.76842097"></polyline>
+                    <ellipse id="Oval-4" fill="#FFFFFF" cx="8.86304277" cy="13.3515783" rx="1.72470021" ry="1.67999992"></ellipse>
+                    <ellipse id="Oval-4-Copy" fill="#FFFFFF" cx="15.7618436" cy="13.3515783" rx="1.72470021" ry="1.67999992"></ellipse>
+                    <polygon id="Path-3" fill="#FFFFFF" points="2.73077534 1.76842097 6.66143681 9.79999955 16.8811566 9.79999955 20.0256858 1.76842097"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
