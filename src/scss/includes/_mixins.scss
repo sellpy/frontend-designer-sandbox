@@ -1,0 +1,24 @@
+@mixin font-size  {
+    font-weight: 600;
+
+    @media #{$small-and-down} {
+        font-size: 1em !important;
+    }
+    @media #{$medium-only} {
+        font-size: 1em !important;
+    }
+    @media #{$large-and-up} {
+        font-size: 1.2em !important;
+    }
+}
+
+@mixin button-color ( $background-color, $border-color, $font-color ){
+    background-color: $background-color;
+    border-color: $border-color;
+    color: $font-color;
+}
+
+@mixin container {
+    margin: auto;
+    width: 90vw;
+}

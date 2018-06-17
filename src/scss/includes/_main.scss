@@ -1,0 +1,20 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+
+  body {
+      color: $font-color;
+      font-family: "Helvetica Neue", sans-serif;
+      margin: 0;
+      padding: 0;
+      position: relative;
+
+      h3 {
+          font-size: 14px;
+      }
+
+      .main {
+          padding-top: $header-height;
+      }
+  }
+}

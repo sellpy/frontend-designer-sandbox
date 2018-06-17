@@ -1,0 +1,21 @@
+$screen-sm: 600px;
+$screen-md: 992px;
+$screen-lg: 1280px;
+
+$nav-margin-sides: 4vw;
+$header-height: 50px;
+
+$spacing-standard: 12px;
+
+$small-and-down: "(max-width: #{$screen-sm})";
+$small-and-up: "(min-width: #{$screen-sm})";
+$medium-and-up: "(min-width: #{$screen-md})";
+$medium-only: "(min-width: #{$screen-sm}) and (max-width: #{$screen-md})";
+$large-and-up: "(min-width: #{$screen-lg})";
+
+$sellpy-blue: #008be5;
+$sellpy-green: #00c99f;
+$sellpy-grey: #eeeeee;
+
+$font-color: #383838;
+$font-color-light: rgba( 0, 0, 0, 0.24 );
