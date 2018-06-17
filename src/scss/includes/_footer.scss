@@ -1,0 +1,29 @@
+footer {
+    background-color: $sellpy-grey;
+    width: 100%;
+
+    .footerContainer {
+        display: inline-block;
+        left: 50%;
+        position: relative;
+        text-align: center;
+        transform: translateX( -50% );
+
+        div {
+            float: left;
+            margin: $spacing-standard * 2;
+
+            a {
+                color: rgb(56, 56, 56);
+                display: contents;
+                font-size: 12px;
+                text-decoration: none;
+            }
+
+            img {
+                margin: $spacing-standard / 2;
+                width: 50px;
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.button {
+    width: 100%;
+    text-transform: uppercase;
+    transition: 0.5s;
+    border-style: solid;
+    border-width: thin;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0.7em 2em;
+    border-radius: 0.25em;
+    margin: ( $spacing-standard / 2 ) 0;
+
+    &:hover {
+        opacity: 0.6;
+    }
+
+    &.button-primary {
+        @include button-color( $sellpy-green, $sellpy-green, white );
+    }
+
+    &.button-secondary {
+        @include button-color( white, $sellpy-green, $sellpy-green );
+    }
+}
