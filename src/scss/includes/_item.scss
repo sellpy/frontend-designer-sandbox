@@ -1,0 +1,56 @@
+.item-page {
+    margin-bottom: $spacing-standard;
+    margin-top: $spacing-standard;
+    text-align: center;
+
+    @include container;
+
+    @media #{$medium-and-up} {
+        .item {
+            display: inline-block;
+
+            > div {
+                float: left;
+            }
+
+            .item-details {
+                margin-left: $spacing-standard;
+            }
+        }
+    }
+
+    .item {
+        text-align: left;
+
+        > div {
+            margin: auto;
+            max-width: $screen-sm;
+        }
+
+        .item-details {
+            h1 {
+                font-size: 24px;
+                font-weight: lighter;
+                margin: 0;
+            }
+
+            p {
+                margin: $spacing-standard / 2;
+            }
+
+            .item-data {
+                margin: $spacing-standard 0;
+            }
+
+            .item-title {
+                margin-bottom: $spacing-standard;
+
+                .item-info p {
+                    display: inline-block;
+                    margin: 0 $spacing-standard 0 0;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
