@@ -1,0 +1,200 @@
+nav {
+    background-color: $sellpy-blue;
+    width: 100%;
+    position: fixed;
+    left: 50%;
+    transform: translateX( -50% );
+    height: $header-height;
+    z-index: 999;
+    margin: auto;
+
+    a {
+        display: inline-block;
+
+        img {
+            max-width: $header-height;
+            max-height: $header-height;
+        }
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .burger-wrapper {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY( -50% );
+        margin-right: 12px;
+        transition: 0.4s;
+        cursor: pointer;
+
+        div {
+            border-radius: 3px;
+        }
+
+        &.french-fry {
+            right: 50vw - $nav-margin-sides / 2;
+            transform: translate( 100%, -50% );
+            margin: 0;
+            padding-left: 12px;
+            z-index: 999;
+
+            .top-bun {
+                -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+                transform: rotate(-45deg) translate(-9px, 6px);
+            }
+
+            .meat {
+                opacity: 0;
+            }
+
+            .bottom-bun {
+                -webkit-transform: rotate( 45deg ) translate(-8px, -8px);
+                transform: rotate( 45deg ) translate(-8px, -8px);
+            }
+
+            & > div {
+                background-color: $sellpy-blue;
+            }
+        }
+
+        .top-bun, .meat, .bottom-bun {
+            background: white;
+            height: 5px;
+            margin: 6px 0;
+            width: 35px;
+            transition: 0.4s;
+            pointer-events: none;
+        }
+
+        @media #{$small-and-up} {
+            display: none;
+        }
+    }
+
+    .nav-icon {
+        max-width: 20vw - ( $nav-margin-sides / 2 );
+        height: 100%;
+        margin-left: $spacing-standard;
+
+        a, img {
+            height: 100%;
+        }
+    }
+
+    .nav-wrapper {
+        max-width: 90%;
+        height: 100%;
+        display: table;
+        display: table;
+        transition: 0.4s;
+        float: right;
+
+        div {
+            display: inline-table;
+            height: 100%;
+            text-align: center;
+            vertical-align: middle;
+
+            a {
+                display: table-cell;
+                vertical-align: middle;
+                padding: 0 $spacing-standard 0 $spacing-standard;
+                text-align: center;
+
+                &.active {
+                    border-top: 5px solid transparent;
+                    border-bottom: 5px solid $sellpy-green;
+                }
+            }
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold !important;
+            font-size: 18px;
+            margin-right: $spacing-standard;
+            transition: 0.4s;
+
+            @include font-size;
+
+            img {
+                max-width: 30px;
+                vertical-align: middle;
+            }
+
+            @media #{$small-and-down} {
+                display: none;
+                margin: 40px 0;
+            }
+        }
+
+        &.open {
+
+            div {
+                display: inline;
+            }
+
+            img {
+                display: none;
+            }
+
+            p {
+                color: $sellpy-blue;
+            }
+
+            .right p {
+                display: block;
+            }
+        }
+
+        .right p {
+            display: none;
+        }
+
+        @media #{$small-and-down} {
+            position: absolute;
+            width: 0;
+            background: white;
+            height: 100vh;
+            padding: 0;
+            right: -50vw;
+            top: 0;
+            transform: translateX( 0% );
+            z-index: 999;
+
+            &.open {
+                width: 50vw;
+                top: 0;
+                right: 0;
+                z-index: 1;
+
+                a {
+                    float: left;
+                    clear: both;
+                    position: relative;
+                    left: 50%;
+                    transform: translateX( -50% );
+                }
+
+                .navigation-logo {
+                    left: -50vw;
+                }
+
+                &::before{
+                    content: '';
+                    position: absolute;
+                    left: -50vw;
+                    top: 0;
+                    width: 50vw;
+                    height: 100vh;
+                    background-color: rgba( 0, 0, 0, 0.4);
+                }
+            }
+        }
+    }
+}
