@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+
 import {shirt} from './resources/items';
 
 import Header from './components/header/headerContainer';
@@ -7,18 +8,29 @@ import ItemDetailedPage from './components/item/itemContainer';
 import Footer from './components/footer/footerContainer';
 
 class App extends Component {
-  render() {
-    return (
-        <div>
-            <Header />
-            <div className = "main">
-                <BreadCrumbs />
-                <ItemDetailedPage { ...shirt } />
+    constructor(){
+        super();
+        this.state = {
+            currentProduct: shirt
+        }
+    }
+
+    switchProduct( product ) {
+        this.setState( { currentProduct: product } );
+    }
+
+    render() {
+        return (
+            <div>
+                <Header />
+                <div className = "main">
+                    <BreadCrumbs />
+                    <ItemDetailedPage { ...this.state.currentProduct } />
+                </div>
+                <Footer />
             </div>
-            <Footer />
-        </div>
-    )
-  }
+        )
+    }
 }
 
 export default App;
