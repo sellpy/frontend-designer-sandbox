@@ -1,0 +1,28 @@
+.bread-crumbs{
+    font-size: 14px;
+
+    @include container;
+
+    a, a:-webkit-any-link, p {
+        text-decoration: none;
+        color: $font-color-light !important;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+     div {
+         display: inline-block;
+     }
+
+     p {
+         display: inline-block;
+         margin: 0;
+         margin-left: $spacing-standard / 2;
+     }
+
+     .bread-crumb:not(:last-child) {
+         margin-right: $spacing-standard / 2;
+     }
+}
