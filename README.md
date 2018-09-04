@@ -1,5 +1,7 @@
 ## Welcome to Sellpy Frontend Designer Sandbox!
 
+Start by forking the repository.
+
 Your task is to design and implement a prototype for the Item detail page on sellpy.se.<br>
 Examples are:
 - [Shirt](https://www.sellpy.se/item/2dMWC5rMUS/polo-ralph-lauren-skjorta-custom-fit-strl-s-beige-flerfargad)
@@ -21,7 +23,7 @@ We would like you to create a new graphically pleasing intuitive page.
 
 ### Submission
 
-- Create a pull request for your branch when you feel that you are satisfied with your creation.
+- Create a pull request on you forked repository and send a link by email to indicate that the task is completed.
 
 ------------------------------------------------------------------------------------------------------------
 
