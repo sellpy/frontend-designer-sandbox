@@ -11,9 +11,9 @@ const ImageContainer = ({images}) => {
     width: '100%'
   }
   return <div
-      style={columnStyle}
-    >
-      <img 
+    style={columnStyle}
+  >
+    <img
       src={images[0]}
       alt='Product'
       style={imageStyle}
@@ -53,11 +53,11 @@ const ItemDetailPage = ({item}) => {
 }
 
 class App extends Component {
-  render() {
+  render () {
     return <ItemDetailPage
       item={shirt}
     />
   }
 }
 
-export default App;
+export default App
