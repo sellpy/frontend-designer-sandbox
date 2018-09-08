@@ -12,7 +12,7 @@ We would like you to create a new graphically pleasing intuitive page.
 
 ### Prerequisites:
 
-NodeJS -https://nodejs.org/en/download/
+NodeJS - https://nodejs.org/en/download/
 
 ### The following guidlines apply:
 
