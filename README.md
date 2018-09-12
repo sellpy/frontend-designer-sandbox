@@ -1,5 +1,7 @@
 ## Welcome to Sellpy Frontend Designer Sandbox!
 
+Start by forking the repository.
+
 Your task is to design and implement a prototype for the Item detail page on sellpy.se.<br>
 Examples are:
 - [Shirt](https://www.sellpy.se/item/2dMWC5rMUS/polo-ralph-lauren-skjorta-custom-fit-strl-s-beige-flerfargad)
@@ -8,11 +10,15 @@ Examples are:
 
 We would like you to create a new graphically pleasing intuitive page.
 
+### Prerequisites:
+
+NodeJS - https://nodejs.org/en/download/
+
 ### The following guidlines apply:
 
 - Buttons and clickable/tappable objects do not have to function unless their function is only graphical (ex: hiding/showing information) in that case where it is relevant to the design it is preferable if it works.
 - You do not have to implement any image switching or zoom.
-- The mobile view is just as imnportant as the dektop view.
+- The mobile view is just as imnportant as the desktop view.
 - Think about what you would like to add to make ther page more appealing. Ex: At the moment we have a component displaying similar items.
 - The main color of Sellpy is (#008BE5)
 - If you feel that you are missing data from the items provided feel free to add and make stuff up.
@@ -21,7 +27,7 @@ We would like you to create a new graphically pleasing intuitive page.
 
 ### Submission
 
-- Create a pull request for your branch when you feel that you are satisfied with your creation.
+- Create a pull request on you forked repository and send a link by email to indicate that the task is completed.
 
 ------------------------------------------------------------------------------------------------------------
 
