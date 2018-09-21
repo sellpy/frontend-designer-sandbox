@@ -1,4 +1,4 @@
-## Welcome to Sellpy Frontend Designer Sandbox!
+# Welcome to Sellpy Frontend Designer Sandbox!
 
 Start by forking the repository.
 
@@ -10,11 +10,7 @@ Examples are:
 
 We would like you to create a new graphically pleasing intuitive page.
 
-### Prerequisites:
-
-[NodeJS](https://nodejs.org/en/download/)
-
-### The following guidlines apply:
+## The following guidlines apply:
 
 - Buttons and clickable/tappable objects do not have to function unless their function is only graphical (ex: hiding/showing information) in that case where it is relevant to the design it is preferable if it works.
 - You do not have to implement any image switching or zoom.
@@ -25,9 +21,25 @@ We would like you to create a new graphically pleasing intuitive page.
 - Information about 3 items are present in the items.js file in the "resources" folder.
 - Start by creating your own branch and commit your changes to that branch.
 
-### Submission
+## Submission
 
 - Create a pull request on you forked repository and send a link by email to indicate that the task is completed.
+
+## Running the server
+
+### Prerequisites:
+
+[NodeJS](https://nodejs.org/en/download/)
+
+### Dependency installation:
+
+run 'npm install'
+
+### Start server:
+
+run 'npm start'
+
+The web application will be opened in a new tab in the default browser.
 
 ------------------------------------------------------------------------------------------------------------
 
