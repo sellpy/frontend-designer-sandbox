@@ -1,6 +1,6 @@
 # Welcome to Sellpy Frontend Designer Sandbox!
 
-Start by forking the repository.
+Start by forking the repository. (Or download as zip in case you dont want to use git)
 
 Your task is to design and implement a prototype for the Item detail page on sellpy.se.<br>
 Examples are:
@@ -23,7 +23,7 @@ We would like you to create a new graphically pleasing intuitive page.
 
 ## Submission
 
-- Create a pull request on you forked repository and send a link by email to indicate that the task is completed.
+- Create a pull request on you forked repository and send a link by email to indicate that the task is completed. (Or email as zip in case you did not use git)
 
 ## Running the server
 
