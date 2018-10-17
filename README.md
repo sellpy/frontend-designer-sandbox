@@ -23,7 +23,7 @@ We would like you to create a new graphically pleasing intuitive page.
 
 ## Submission
 
-- Create a pull request on you forked repository and send a link by email to indicate that the task is completed. (Or email as zip in case you did not use git)
+- Create a pull request on your forked repository and send a link by email to indicate that the task is completed. (Or email as zip in case you did not use git)
 
 ## Running the server
 
