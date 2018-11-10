@@ -59,7 +59,7 @@ run 'npm start'
 
 The web application will be opened in a new tab in the default browser.
 
-## End of assignment instructions (Below are Create React App default instructions which can be used in case you want to kknow more about the build of the app)
+## End of assignment instructions (Below are Create React App default instructions which can be used in case you want to know more about the build of the app)
 
 ------------------------------------------------------------------------------------------------------------
 
