@@ -8,6 +8,7 @@ Examples are:
 - [Shirt](https://www.sellpy.se/item/2dMWC5rMUS/polo-ralph-lauren-skjorta-custom-fit-strl-s-beige-flerfargad)
 - [Shoes](https://www.sellpy.se/item/3ZrZX0O7Gh/acne-studios-boots-strl-36-svart-skinn)
 - [Item](https://www.sellpy.se/item/9yBpgFIqMl/apple-iphone-6-a1586-64gb-olast-silverfargad)
+
 The data for these items can be found in the resources folder of this repository.
 
 We would like you to create a new graphically pleasing and intuitive page.
@@ -26,7 +27,7 @@ Send us an email containing the design in some portable format like pdf or png.
 
 ### Part Two: Implement the design
 
-Start by forking the repository. (Or download as zip in case you dont want to use git)
+<b>Start by forking the repository.</b> (Or download as zip in case you dont want to use git)
 
 Implement as much of the design that you created in the previous step as you can. Try to focus on one component at a time to make sure it is as good as it can be before continuing. It is better to have a few components implemented well than all of the propsed components implemented poorly.
 
@@ -35,10 +36,8 @@ Implement as much of the design that you created in the previous step as you can
 - Buttons and clickable/tappable objects do not have to function unless their function is only graphical (ex: hiding/showing information) in that case where it is relevant to the design it is preferable if it works.
 - You do not have to implement any image switching or zoom.
 - The mobile view is just as imnportant as the desktop view.
-- Think about what you would like to add to make ther page more appealing. Ex: At the moment we have a component displaying similar items.
-- The main color of Sellpy is (#008BE5)
+- Information about the 3 item exaples presented above are present in the items.js file in the "resources" folder.
 - If you feel that you are missing data from the items provided feel free to add and make stuff up.
-- Information about 3 items are present in the items.js file in the "resources" folder.
 
 #### Submission
 
