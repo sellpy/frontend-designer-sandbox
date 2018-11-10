@@ -1,16 +1,36 @@
 # Welcome to Sellpy Frontend Designer Sandbox!
 
-Start by forking the repository. (Or download as zip in case you dont want to use git)
+## Assignment:
+### Part One: Create a design
 
-Your task is to design and implement a prototype for the Item detail page on sellpy.se.<br>
+Your first task is to design a prototype for the Item detail page on sellpy.se.<br>
 Examples are:
 - [Shirt](https://www.sellpy.se/item/2dMWC5rMUS/polo-ralph-lauren-skjorta-custom-fit-strl-s-beige-flerfargad)
 - [Shoes](https://www.sellpy.se/item/3ZrZX0O7Gh/acne-studios-boots-strl-36-svart-skinn)
 - [Item](https://www.sellpy.se/item/9yBpgFIqMl/apple-iphone-6-a1586-64gb-olast-silverfargad)
+The data for these items can be found in the resources folder of this repository.
 
-We would like you to create a new graphically pleasing intuitive page.
+We would like you to create a new graphically pleasing and intuitive page.
+We would <b>highly recommend</b> that your design is <b>different</b> to the existing design. That way you will be able to express your own design ideas more clearly.
 
-## The following guidlines apply:
+#### The following guidlines apply:
+
+- The mobile view is just as imnportant as the desktop view.
+- Think about what you would like to add to make ther page more appealing. Ex: At the moment we have a component displaying similar items.
+- The main color of Sellpy is (#008BE5)
+- Information about the 3 item exaples presented above are present in the items.js file in the "resources" folder.
+- If you feel that you are missing data from the items provided feel free to add and make stuff up.
+
+#### Submission
+Send us an email containing the design in some portable format like pdf or png.
+
+### Part Two: Implement the design
+
+Start by forking the repository. (Or download as zip in case you dont want to use git)
+
+Implement as much of the design that you created in the previous step as you can. Try to focus on one component at a time to make sure it is as good as it can be before continuing. It is better to have a few components implemented well than all of the propsed components implemented poorly.
+
+#### The following guidlines apply:
 
 - Buttons and clickable/tappable objects do not have to function unless their function is only graphical (ex: hiding/showing information) in that case where it is relevant to the design it is preferable if it works.
 - You do not have to implement any image switching or zoom.
@@ -20,9 +40,9 @@ We would like you to create a new graphically pleasing intuitive page.
 - If you feel that you are missing data from the items provided feel free to add and make stuff up.
 - Information about 3 items are present in the items.js file in the "resources" folder.
 
-## Submission
+#### Submission
 
-- Create a pull request on your forked repository and send a link by email to indicate that the task is completed. (Or email as zip in case you did not use git)
+- Send a link to your forked version of this repository by email to indicate that the task is completed. (Or email as zip in case you did not use git)
 
 ## Running the server
 
@@ -39,6 +59,8 @@ run 'npm install'
 run 'npm start'
 
 The web application will be opened in a new tab in the default browser.
+
+## End of assignment instructions (Below are Create React App default instructions which can be used in case you want to kknow more about the build of the app)
 
 ------------------------------------------------------------------------------------------------------------
 
