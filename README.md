@@ -16,10 +16,10 @@ We would <b>highly recommend</b> that your design is <b>different</b> to the exi
 
 #### The following guidlines apply:
 
-- The mobile view is just as imnportant as the desktop view.
-- Think about what you would like to add to make ther page more appealing. Ex: At the moment we have a component displaying similar items.
+- The mobile view is just as important as the desktop view.
+- Think about what you would like to add to make the page more appealing. Ex: At the moment we have a component displaying similar items.
 - The main color of Sellpy is (#008BE5)
-- Information about the 3 item exaples presented above are present in the items.js file in the "resources" folder.
+- Information about the 3 item examples presented above are present in the items.js file in the "resources" folder.
 - If you feel that you are missing data from the items provided feel free to add and make stuff up.
 
 #### Submission
@@ -31,12 +31,12 @@ Send us an email containing the design in some portable format like pdf or png.
 
 Implement as much of the design that you created in the previous step as you can. Try to focus on one component at a time to make sure it is as good as it can be before continuing. It is better to have a few components implemented well than all of the propsed components implemented poorly.
 
-#### The following guidlines apply:
+#### The following guidelines apply:
 
 - Buttons and clickable/tappable objects do not have to function unless their function is only graphical (ex: hiding/showing information) in that case where it is relevant to the design it is preferable if it works.
 - You do not have to implement any image switching or zoom.
-- The mobile view is just as imnportant as the desktop view.
-- Information about the 3 item exaples presented above are present in the items.js file in the "resources" folder.
+- The mobile view is just as important as the desktop view.
+- Information about the 3 item examples presented above are present in the items.js file in the "resources" folder.
 - If you feel that you are missing data from the items provided feel free to add and make stuff up.
 
 #### Submission
